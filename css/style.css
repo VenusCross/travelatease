@@ -1,0 +1,123 @@
+/* ---- LAYOUT ---- */
+/* ---- NAVIGATION ---- */
+/* ---- TYPOGRAPHY ---- */
+/* ---- MISC ---- */
+
+/* ---- BACKGROUND ---- */
+
+/* Body */
+body {
+    max-width: 960px;
+    width: 90%;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+h1 {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.1em;
+    color: #6685E0;
+    text-shadow: 2px 2px 3px #999;
+}
+h2 {
+    font-size: large;
+}
+h3 {
+    font-size: medium;
+}
+p {
+    margin: 0.5em;
+}
+
+/* ---- NAVIGATION ---- */
+ 
+  
+ 
+ nav ul li{
+			 width: 100%; 
+			 margin: 0 auto;
+ }
+ nav ul li{
+ 			width: 100%;
+ }
+ nav ul li{
+             background-color:#00a160;
+             margin:0px;
+             list-style-type: none;
+             padding:5px 0px 5px 0px
+ }
+
+ nav ul li a{
+             display: inline;
+             padding: 5px 0px 5px 0px;
+             width: 100%;
+
+}
+ nav ul li a{
+            display: inline;
+            width: 100%;
+}
+nav ul li a:link, ul li a:visited {
+            color: aquamarine;
+            border-bottom: ;
+            font-weight: ; bold;
+}
+
+nav ul li. selected{
+            background-color:yellowgreen;
+}
+/* ---- NAVIGATION ---- */
+
+/* ---- images ---- */
+
+img.large {
+            width: 500px;
+            height: 500px;
+}
+
+img.medium{
+            width: 250px;
+            height: 250px;
+}
+img.small{
+            width 100px;
+            height: }
+
+/*--border for image*/
+.border{
+            background: #;
+            float: left;
+            width: 310px;
+            height:280px;
+}
+
+.border2{
+            background-color: #cccccc;
+            float: left;
+            width:300px;
+
+}
+.main {
+            float:left;
+            background:url (villarome.jpg);
+            width:290px;
+            height: 260px;
+            margin: 5px;
+}
+.video1{
+            background-color: #cccccc;
+            float: left;
+            width:570px;
+            height: 320px;
+}
+.video2{
+            background-color: #cccccc;
+            float: left;
+            width:570px;
+            height: 320px;
+}
+
+/* ---- images ---- */
+/* Navigation */
