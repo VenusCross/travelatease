@@ -86,9 +86,12 @@ nav ul li. selected{
 
 /* ---- images ---- */
 
-img.large {
-            width: 500px;
-            height: 500px;
+img {
+   
+           padding:1px;
+           border:1px solid #021a40;
+          background-color:#ff0;
+          
 }
 
 img.medium{
@@ -108,17 +111,12 @@ img.small{
 }
 
 .border2{
-            background-color: #cccccc;
+            background-color: #cccccc
+            padding:1px;
+            border:1px solid #021a40;
             float: left;
             width:300px;
 
-}
-.main {
-            float:left;
-            background:url (villarome.jpg);
-            width:290px;
-            height: 260px;
-            margin: 5px;
 }
 .video1{
             background-color: #cccccc;
