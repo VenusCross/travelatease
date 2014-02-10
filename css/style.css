@@ -1,4 +1,4 @@
-/* ---- LAYOUT ---- */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{border:0;margin:0;padding:0;font-size:100%}html,body{height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:bold}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}ol,ul{list-style:none}li{display:list-item}table{border-collapse:collapse;border-spacing:0}th,td,caption{font-weight:normal;vertical-align:top;text-align:left}q{quotes:none}q:before,q:after{content:'';content:none}sub,sup,small{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}svg{overflow:hidden}/* ---- LAYOUT ---- */
 /* ---- NAVIGATION ---- */
 /* ---- TYPOGRAPHY ---- */
 /* ---- MISC ---- */
@@ -18,7 +18,7 @@ h1 {
     text-align: center;
     margin-top: 0.4em;
     margin-bottom: 0.1em;
-    color: #6685E0;
+    color: #9cf1f0;
     text-shadow: 2px 2px 3px #999;
 }
 h2 {
@@ -35,15 +35,28 @@ p {
  
   
  
- nav ul li{
-			 width: 100%; 
-			 margin: 0 auto;
+ #navigation
+ 		{
+ 	width: 100%;
+ 	margin: auto;
  }
- nav ul li{
- 			width: 100%;
+ nav{
+ 	width: 100%;
+ 	margin: 0.7em 0;
  }
- nav ul li{
-             background-color:#00a160;
+ nav ul{
+ 	width: 100%;
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden; 
+}
+nav ul li{
+	width: 16%;
+	float: left;
+}
+ nav ul li a{
+             background-color:#00b160;
              margin:0px;
              list-style-type: none;
              padding:5px 0px 5px 0px
@@ -66,7 +79,8 @@ nav ul li a:link, ul li a:visited {
 }
 
 nav ul li. selected{
-            background-color:yellowgreen;
+            background-color:;
+	color: #00b160;
 }
 /* ---- NAVIGATION ---- */
 
